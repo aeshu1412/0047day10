@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Simple String Example...
+    </h1>
+    <p>
+        A string is generally considered as a data type and is often implemented as an array data structure of bytes (or words) that stores a sequence of elements, typically characters, using some character encoding.
+    </p><p id="Demo"></p>
+    <script>
+        let answer1=  "It's alright";
+        let answer2= "i am 'aesha'";
+        let answer3= 'i am "aesha" ';
+        document.getElementById('Demo').innerHTML=answer1+"</br>"+answer2+"</br>"+ answer3;
+        document.getElementById('Demo').innerHTML=answer1.length;
+        
+        let text="My name is \"aesha\" . i am 21 years old..";
+        document.getElementById('Demo').innerHTML=text;
+        let text1="aesha, riddhi , vidhi";
+        let part=text1.part(4,10);
+        document.getElementById('Demo').innerHTML=part;
+        </script>
+        
+</body>
+</html>
